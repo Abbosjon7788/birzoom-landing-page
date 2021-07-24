@@ -3,7 +3,7 @@ import './lesson-info.scss';
 
 const LessonInfo = () => {
     return (
-        <div className="w-10/12 mx-auto lesson-info">
+        <div className="w-10/12 mx-auto pb-28 relative lesson-info">
             <div className="flex">
                 <div className="flex items-center w-3/5">
                     <div>
@@ -16,9 +16,9 @@ const LessonInfo = () => {
                     <img src="./images/landingpage-girl.png" className="w-full" alt=""/>
                 </div>
             </div>
-            <div className="flex -mx-4 mt-2 mb-12">
+            <div className="flex absolute w-full -bottom-16">
                 <div className="w-1/4 p-4">
-                    <div className="flex shadow-2xl p-6 items-center bg-white rounded-lg">
+                    <div className="flex shadow-xl p-6 items-center bg-white rounded-lg">
                         <div className="flex items-center justify-center h-16 w-16 bg-yellow-300 rounded-full mr-5">
                             <span className="icon icon-teacher"/>
                         </div>
@@ -29,7 +29,7 @@ const LessonInfo = () => {
                     </div>
                 </div>
                 <div className="w-1/4 p-4">
-                    <div className="flex shadow-2xl p-6 items-center bg-white rounded-lg">
+                    <div className="flex shadow-xl p-6 items-center bg-white rounded-lg">
                         <div className="flex items-center justify-center h-16 w-16 bg-yellow-300 rounded-full mr-5">
                             <span className="icon icon-student"/>
                         </div>
@@ -40,7 +40,7 @@ const LessonInfo = () => {
                     </div>
                 </div>
                 <div className="w-1/4 p-4">
-                    <div className="flex shadow-2xl p-6 items-center bg-white rounded-lg">
+                    <div className="flex shadow-xl p-6 items-center bg-white rounded-lg">
                         <div className="flex items-center justify-center h-16 w-16 bg-yellow-300 rounded-full mr-5">
                             <span className="icon icon-lesson"/>
                         </div>
@@ -51,7 +51,7 @@ const LessonInfo = () => {
                     </div>
                 </div>
                 <div className="w-1/4 p-4">
-                    <div className="flex shadow-2xl p-6 items-center bg-white rounded-lg">
+                    <div className="flex shadow-xl p-6 items-center bg-white rounded-lg">
                         <div className="flex items-center justify-center h-16 w-16 bg-yellow-300 rounded-full mr-5">
                             <span className="icon icon-exit"/>
                         </div>

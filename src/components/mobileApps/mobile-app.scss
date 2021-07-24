@@ -1,0 +1,25 @@
+.mobile-app{
+  .icon{
+    mask-size: 100%;
+    -webkit-mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    background-color: white;
+
+    &.icon-app-store{
+      width: 27px;
+      height: 33px;
+      mask-image: url("../../assets/icons/apple.png");
+      -webkit-mask-image: url("../../assets/icons/apple.png");
+
+    }
+
+    &.icon-play-market{
+      width: 31px;
+      height: 34px;
+      mask-image: url("../../assets/icons/play-market.png");
+      -webkit-mask-image: url("../../assets/icons/play-market.png");
+    }
+  }
+
+}
