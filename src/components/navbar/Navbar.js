@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './navbar.scss';
+import LessonInfo from "../lessonInfo/LessonInfo";
 
 const Navbar = () => {
     const [language, setLanguage] = useState('UZ');
@@ -10,11 +11,11 @@ const Navbar = () => {
     };
 
     return (
-        <div className="bg-yellow-50 pt-12 navbar">
-            <ul className="flex items-center w-10/12 mx-auto">
+        <div className="bg-yellow-50 pt-8 navbar">
+            <ul className="flex items-center mb-16 w-10/12 mx-auto">
                 <li className="block mr-16">
                     <a href="#">
-                        <img className="mb-6" src="./images/logo.png" alt=""/>
+                        <img src="./images/logo.png" alt=""/>
                     </a>
                 </li>
                 <li className="block ml-20 mr-12">
@@ -55,6 +56,9 @@ const Navbar = () => {
                     <a href="#" className="rounded-md transition-all duration-200 leading-loose px-4 py-2 bg-yellow-300 hover:bg-yellow-400 hover:text-white">Ro'yxatdan o'tish</a>
                 </li>
             </ul>
+
+            <LessonInfo/>
+
         </div>
     );
 };

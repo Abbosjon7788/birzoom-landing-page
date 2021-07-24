@@ -1,0 +1,41 @@
+.lesson-info{
+  .icon{
+    mask-size: 100%;
+    -webkit-mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    background-color: white;
+
+    &.icon-teacher{
+      width: 28px;
+      height: 32px;
+
+      mask-image: url("../../assets/icons/teacher.png");
+      -webkit-mask-image: url("../../assets/icons/teacher.png");
+    }
+
+    &.icon-student{
+      width: 32px;
+      height: 32px;
+
+      mask-image: url("../../assets/icons/student.png");
+      -webkit-mask-image: url("../../assets/icons/student.png");
+    }
+
+    &.icon-lesson{
+      width: 32px;
+      height: 25px;
+
+      mask-image: url("../../assets/icons/lesson.png");
+      -webkit-mask-image: url("../../assets/icons/lesson.png");
+    }
+
+    &.icon-exit{
+      width: 24px;
+      height: 32px;
+
+      mask-image: url("../../assets/icons/exit.png");
+      -webkit-mask-image: url("../../assets/icons/exit.png");
+    }
+  }
+}
