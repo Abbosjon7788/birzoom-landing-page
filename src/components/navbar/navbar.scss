@@ -1,0 +1,33 @@
+.navbar {
+  height: 800px;
+
+  .icon{
+    mask-size: 100%;
+    -webkit-mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    width: 14px;
+    height: 9px;
+    background-color: black;
+
+    &.icon-arrow-down{
+      mask-image: url("../../assets/icons/arrow-down.png");
+      -webkit-mask-image: url("../../assets/icons/arrow-down.png");
+    }
+
+    &.icon-arrow-up{
+      transform: rotate(180deg);
+      mask-image: url("../../assets/icons/arrow-down.png");
+      -webkit-mask-image: url("../../assets/icons/arrow-down.png");
+    }
+
+
+
+  }
+
+  .dropdown-menu {
+    bottom: -84px;
+    right: -9px;
+  }
+}
+
