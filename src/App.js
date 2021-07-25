@@ -30,6 +30,7 @@ function App() {
                     <div className="bg-item-6"/>
                     <div className="bg-item-7"/>
                     <div className="bg-item-9"/>
+                    <div className="bg-item-10"/>
 
                 </div>
 
