@@ -41,7 +41,7 @@ const Footer = () => {
                     </div>
                     <div className="w-1/4 tracking-wider">
                         <h3 className="font-semibold text-lg mb-4">Dasturni yuklab olish</h3>
-                        <a href="#" className="flex w-3/5 items-center rounded-lg bg-white py-3 px-6 text-gray-800">
+                        <a href="#" className="flex w-3/5 items-center rounded-lg bg-white py-3 pl-6 pr-2 text-gray-800">
                             <div className="mr-4">
                                 <span className="icon block icon-app-store"/>
                             </div>
@@ -51,7 +51,7 @@ const Footer = () => {
                             </div>
 
                         </a>
-                        <a href="#" className="flex w-3/5 mt-4 items-center rounded-lg bg-white py-3 px-6 text-gray-800">
+                        <a href="#" className="flex w-3/5 mt-4 items-center rounded-lg bg-white py-3 pl-6 pr-2 text-gray-800">
                             <div className="mr-4">
                                 <span className="icon block icon-play-market"/>
                             </div>
