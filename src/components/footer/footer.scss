@@ -1,0 +1,57 @@
+.footer{
+  .icon{
+    mask-size: 100%;
+    -webkit-mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+
+    &.icon-instagram{
+      background-color: white;
+      height: 22px;
+      width: 22px;
+      mask-image: url("../../assets/icons/instagram.png");
+      -webkit-mask-image: url("../../assets/icons/instagram.png");
+    }
+
+    &.icon-telegram{
+      background-color: white;
+      height: 15px;
+      width: 17px;
+      mask-image: url("../../assets/icons/telegram.png");
+      -webkit-mask-image: url("../../assets/icons/telegram.png");
+    }
+
+    &.icon-facebook{
+      background-color: white;
+      height: 18px;
+      width: 10px;
+      mask-image: url("../../assets/icons/facebook.png");
+      -webkit-mask-image: url("../../assets/icons/facebook.png");
+    }
+
+    &.icon-twitter{
+      background-color: white;
+      height: 16px;
+      width: 20px;
+      mask-image: url("../../assets/icons/twitter.png");
+      -webkit-mask-image: url("../../assets/icons/twitter.png");
+    }
+
+    &.icon-app-store{
+      background-color: #011640;
+      width: 24px;
+      height: 31px;
+      mask-image: url("../../assets/icons/apple.png");
+      -webkit-mask-image: url("../../assets/icons/apple.png");
+    }
+
+    &.icon-play-market{
+      background-color: #011640;
+      width: 27px;
+      height: 30px;
+      mask-image: url("../../assets/icons/play-market.png");
+      -webkit-mask-image: url("../../assets/icons/play-market.png");
+    }
+
+  }
+}

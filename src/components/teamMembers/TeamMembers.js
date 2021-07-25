@@ -14,7 +14,7 @@ const TeamMembers = () => {
     };
 
     return (
-        <div className="w-10/12 mx-auto mb-32">
+        <div className="w-10/12 z-50 relative mx-auto mb-32">
             <h1 className="font-bold text-3xl text-center pb-8">Jamoa a'zolari</h1>
 
             <Slider {...settings}>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const ShareExperience = () => {
     return (
-        <div className="w-10/12 mx-auto mb-24">
+        <div className="w-10/12 mx-auto z-50 relative mb-24">
             <h1 className="font-bold text-3xl text-center pb-12">Birzoomda bilim ulashing</h1>
             <div className="flex">
                 <div className="flex items-center pr-16 w-3/5">

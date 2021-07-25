@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <div className="bg-yellow-50 pt-8 navbar">
-            <ul className="flex items-center mb-16 w-10/12 mx-auto">
+            <ul className="flex items-center z-50 relative mb-16 w-10/12 mx-auto">
                 <li className="block mr-16">
                     <a href="#">
                         <img src="./images/logo.png" alt=""/>
